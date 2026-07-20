@@ -1,0 +1,32 @@
+# Arquivos de sistema operacional (Mac)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Arquivos de sistema operacional (Windows)
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Diretórios de build e pacotes (comuns em várias linguagens)
+build/
+dist/
+target/
+*.pyc
+*.pyo
+
+# Pastas de dependências e logs
+node_modules/
+vendor/
+*.log
+*.sqlite
+
+# Configurações de IDEs e editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.pyproj
