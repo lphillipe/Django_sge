@@ -1,32 +1,93 @@
-# Arquivos de sistema operacional (Mac)
+# ====================================================================
+# SISTEMA OPERACIONAL (Arquivos inúteis do OS)
+# ====================================================================
+# Windows
+Thumbs.db
+Ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
 .DS_Store
-.DS_Store?
+.AppleDouble
+.LSOverride
 ._*
+.DocumentRevisions-V100
+.fseventsd
 .Spotlight-V100
 .Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
 
-# Arquivos de sistema operacional (Windows)
-Thumbs.db
-ehthumbs.db
-Desktop.ini
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
 
-# Diretórios de build e pacotes (comuns em várias linguagens)
+# ====================================================================
+# IDES E EDITORES DE CÓDIGO
+# ====================================================================
+# Visual Studio Code
+.vscode/
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# JetBrains (IntelliJ, WebStorm, CLion, PyCharm, etc.)
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Sublime Text / Eclipse
+*.sublime-project
+*.sublime-workspace
+.metadata/
+.classpath
+.project
+.settings/
+
+# ====================================================================
+# COMPILAÇÃO, DEPENDÊNCIAS E LOGS (Geral)
+# ====================================================================
+# Logs e Bancos de Dados locais
+*.log
+*.sqlite3
+*.db
+
+# Arquivos de diagnóstico/arquivos temporários
+*.tmp
+*.bak
+*.swp
+*~
+.clangd/
+.cache/
+
+# Pacotes e builds (Node, C, Python, etc.)
+node_modules/
+bower_components/
 build/
 dist/
-target/
-*.pyc
-*.pyo
+bin/
+obj/
+out/
+*.exe
+*.o
+*.out
+*.app
 
-# Pastas de dependências e logs
-node_modules/
-vendor/
-*.log
-*.sqlite
-
-# Configurações de IDEs e editores
-.vscode/
-.idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.pyproj
+# ====================================================================
+# SEGURANÇA E CONFIGURAÇÕES LOCAIS (OBRIGATÓRIO IGNORAR)
+# ====================================================================
+# Arquivos de ambiente com senhas e chaves de API
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+*.cert
